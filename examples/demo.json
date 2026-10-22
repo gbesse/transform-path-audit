@@ -1,0 +1,63 @@
+{
+  "frames": [
+    "map",
+    "base",
+    "camera"
+  ],
+  "reference": "map",
+  "at": 10,
+  "max_age": 2,
+  "transforms": [
+    {
+      "id": "mb",
+      "from": "map",
+      "to": "base",
+      "q": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        1,
+        0,
+        0
+      ],
+      "time": 10
+    },
+    {
+      "id": "bc",
+      "from": "base",
+      "to": "camera",
+      "q": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        0
+      ],
+      "time": 10
+    },
+    {
+      "id": "mc",
+      "from": "map",
+      "to": "camera",
+      "q": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        1,
+        2,
+        0
+      ],
+      "time": 10
+    }
+  ]
+}

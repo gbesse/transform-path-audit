@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "transform-path-audit"
+version = "0.1.0a1"
+description = "FR: Vérifier les cycles et âges des transformations rigides 3D | EN: Check cycles and ages of rigid 3D transforms | ES: Comprobar ciclos y edades de transformaciones rígidas 3D"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+transform-path-audit = "transform_path_audit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["transform_path_audit*"]

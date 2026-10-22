@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Vérifier les cycles et âges des transformations rigides 3D', 'en': 'Check cycles and ages of rigid 3D transforms', 'es': 'Comprobar ciclos y edades de transformaciones rígidas 3D'}
